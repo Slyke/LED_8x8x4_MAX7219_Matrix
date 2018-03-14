@@ -2076,6 +2076,17 @@ void loop() {
   
   delay(delayTime);
 
+  doBinaryCount();
+
+  clearAllDisplays();
+  
+  delay(delayTime);
+
+  scrollFont();
+
+}
+
+void doBinaryCount() {
   // Binary Count
   for (uint8_t k = 0; k < 0x04; k++) { // 8x8 Screen
     for (byte j = 1; j <= 0x08; j++) { // Row
@@ -2085,13 +2096,6 @@ void loop() {
       }
     }
   }
-
-  clearAllDisplays();
-  
-  delay(delayTime);
-
-  scrollFont();
-
 }
 
 void scrollFont() {
