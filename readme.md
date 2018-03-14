@@ -10,3 +10,8 @@ Just copy and paste into the Arduino IDE and upload it to your Arduino. Make sur
 
 ## Custom Message:
 Just change everything in between the quotes on line 33. Don't forget to remove doBinaryCount() and scrollFont() in the loop() function! Unless you want them there that is.
+
+## Hardware:
+* Arduino Uno
+* MAX7219 with 8x8 Dot Matrix LED Module (4 in 1)
+* Wires and stuff
